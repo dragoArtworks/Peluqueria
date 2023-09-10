@@ -517,7 +517,7 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         Ana.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\peluqueria\\imagenes\\barbera madura.jpeg")); // NOI18N
         getContentPane().add(Ana, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, 190, 180));
 
-        Jose.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\peluqueria\\imagenes\\barbero.jpeg")); // NOI18N
+        Jose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/peluqueria/imagenes/barbero.jpeg"))); // NOI18N
         getContentPane().add(Jose, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 360, 190, 180));
 
         Roberto.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\peluqueria\\imagenes\\barbero2.jpeg")); // NOI18N
@@ -525,10 +525,10 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         Roberto.setAutoscrolls(true);
         getContentPane().add(Roberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 150, 190, 180));
 
-        Lucrecia.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Desktop\\ideogram\\iloveimg-resized (1)\\barbera.jpeg")); // NOI18N
+        Lucrecia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/peluqueria/imagenes/barbera.jpeg"))); // NOI18N
         getContentPane().add(Lucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 360, 190, 180));
 
-        logo.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\peluqueria\\imagenes\\logo.png")); // NOI18N
+        logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/peluqueria/imagenes/logo.png"))); // NOI18N
         getContentPane().add(logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 0, -1, -1));
 
         slogan.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
@@ -541,21 +541,21 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         titulo.setText("Barberia Waos");
         getContentPane().add(titulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 0, 490, -1));
 
-        div3.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\peluqueria\\imagenes\\contenedor.jpg")); // NOI18N
+        div3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/peluqueria/imagenes/contenedor.jpg"))); // NOI18N
         getContentPane().add(div3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 350, 420, 200));
 
         div2.setForeground(new java.awt.Color(255, 255, 255));
-        div2.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\peluqueria\\imagenes\\contenedor.jpg")); // NOI18N
+        div2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/peluqueria/imagenes/contenedor.jpg"))); // NOI18N
         getContentPane().add(div2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 140, 420, 200));
 
-        div1.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\peluqueria\\imagenes\\contenedor.jpg")); // NOI18N
+        div1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/peluqueria/imagenes/contenedor.jpg"))); // NOI18N
         getContentPane().add(div1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 350, 420, 200));
 
-        div.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\peluqueria\\imagenes\\contenedor.jpg")); // NOI18N
+        div.setIcon(new javax.swing.ImageIcon(getClass().getResource("/peluqueria/imagenes/contenedor.jpg"))); // NOI18N
         getContentPane().add(div, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 420, 200));
 
         Fondo.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
-        Fondo.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Desktop\\85c0aa_solid_color_background_icolorpalette.jpg")); // NOI18N
+        Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/peluqueria/imagenes/85c0aa_solid_color_background_icolorpalette.jpg"))); // NOI18N
         getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -70, 890, -1));
 
         pack();

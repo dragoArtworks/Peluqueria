@@ -1260,7 +1260,7 @@
     <Component class="javax.swing.JLabel" name="Jose">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\barbero.jpeg"/>
+          <Image iconType="3" name="/peluqueria/imagenes/barbero.jpeg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1288,7 +1288,7 @@
     <Component class="javax.swing.JLabel" name="Lucrecia">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\ideogram\iloveimg-resized (1)\barbera.jpeg"/>
+          <Image iconType="3" name="/peluqueria/imagenes/barbera.jpeg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1300,7 +1300,7 @@
     <Component class="javax.swing.JLabel" name="logo">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\logo.png"/>
+          <Image iconType="3" name="/peluqueria/imagenes/logo.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1344,7 +1344,7 @@
     <Component class="javax.swing.JLabel" name="div3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\contenedor.jpg"/>
+          <Image iconType="3" name="/peluqueria/imagenes/contenedor.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1359,7 +1359,7 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\contenedor.jpg"/>
+          <Image iconType="3" name="/peluqueria/imagenes/contenedor.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1371,7 +1371,7 @@
     <Component class="javax.swing.JLabel" name="div1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\contenedor.jpg"/>
+          <Image iconType="3" name="/peluqueria/imagenes/contenedor.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1383,7 +1383,7 @@
     <Component class="javax.swing.JLabel" name="div">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\contenedor.jpg"/>
+          <Image iconType="3" name="/peluqueria/imagenes/contenedor.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1398,7 +1398,7 @@
           <Font name="Segoe Print" size="14" style="0"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\85c0aa_solid_color_background_icolorpalette.jpg"/>
+          <Image iconType="3" name="/peluqueria/imagenes/85c0aa_solid_color_background_icolorpalette.jpg"/>
         </Property>
       </Properties>
       <Constraints>
