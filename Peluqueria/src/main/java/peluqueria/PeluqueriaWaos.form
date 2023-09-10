@@ -1248,7 +1248,7 @@
     <Component class="javax.swing.JLabel" name="Ana">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\ideogram\iloveimg-resized (1)\barbera madura.jpeg"/>
+          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\barbera madura.jpeg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1260,7 +1260,7 @@
     <Component class="javax.swing.JLabel" name="Jose">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\ideogram\iloveimg-resized (1)\barbero.jpeg"/>
+          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\barbero.jpeg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1272,7 +1272,7 @@
     <Component class="javax.swing.JLabel" name="Roberto">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\ideogram\iloveimg-resized (1)\barbero2.jpeg"/>
+          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\barbero2.jpeg"/>
         </Property>
         <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
           <ComponentRef name="Roberto"/>
@@ -1300,7 +1300,7 @@
     <Component class="javax.swing.JLabel" name="logo">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\ideogram\iloveimg-resized\logo.png"/>
+          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\logo.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1344,7 +1344,7 @@
     <Component class="javax.swing.JLabel" name="div3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\contenedor.jpg"/>
+          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\contenedor.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1359,7 +1359,7 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\contenedor.jpg"/>
+          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\contenedor.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1371,7 +1371,7 @@
     <Component class="javax.swing.JLabel" name="div1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\contenedor.jpg"/>
+          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\contenedor.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -1383,7 +1383,7 @@
     <Component class="javax.swing.JLabel" name="div">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\USER\Desktop\contenedor.jpg"/>
+          <Image iconType="2" name="C:\Users\USER\Documents\Desarrollo\programacion 301\actividad peluqueria\Peluqueria\src\main\java\peluqueria\imagenes\contenedor.jpg"/>
         </Property>
       </Properties>
       <Constraints>
