@@ -190,152 +190,152 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         cantCortesCabLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesCabLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         cantCortesCabLucrecia.setText("0");
-        getContentPane().add(cantCortesCabLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 390, 20, -1));
+        getContentPane().add(cantCortesCabLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 400, 40, -1));
 
         precCorteCabLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteCabLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         precCorteCabLucrecia.setText("$ 0");
-        getContentPane().add(precCorteCabLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 390, 30, -1));
+        getContentPane().add(precCorteCabLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 400, 90, -1));
 
         precCorteDamLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteDamLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         precCorteDamLucrecia.setText("$ 0");
-        getContentPane().add(precCorteDamLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 410, 30, -1));
+        getContentPane().add(precCorteDamLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 420, 90, -1));
 
         cantCortesDamLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesDamLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         cantCortesDamLucrecia.setText("0");
-        getContentPane().add(cantCortesDamLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 410, 10, -1));
+        getContentPane().add(cantCortesDamLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 420, 40, -1));
 
         cantTinturasLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantTinturasLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         cantTinturasLucrecia.setText("0");
-        getContentPane().add(cantTinturasLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 430, 20, -1));
+        getContentPane().add(cantTinturasLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 440, 40, -1));
 
         precTinturaLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precTinturaLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         precTinturaLucrecia.setText("$ 0");
-        getContentPane().add(precTinturaLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 430, 30, -1));
+        getContentPane().add(precTinturaLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 440, 90, -1));
 
         precPeinadoLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precPeinadoLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         precPeinadoLucrecia.setText("$ 0");
-        getContentPane().add(precPeinadoLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 450, 30, -1));
+        getContentPane().add(precPeinadoLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 460, 90, -1));
 
         cantPeinadosLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantPeinadosLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         cantPeinadosLucrecia.setText("0");
-        getContentPane().add(cantPeinadosLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 450, 10, -1));
+        getContentPane().add(cantPeinadosLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 460, 40, -1));
 
         totalServiciosLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalServiciosLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         totalServiciosLucrecia.setText("0");
-        getContentPane().add(totalServiciosLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 480, 20, -1));
+        getContentPane().add(totalServiciosLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 480, 60, -1));
 
         totalRecaudadoLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalRecaudadoLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         totalRecaudadoLucrecia.setText("$ 0");
-        getContentPane().add(totalRecaudadoLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 500, 30, -1));
+        getContentPane().add(totalRecaudadoLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 500, 70, -1));
 
         cantCortesCabJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesCabJose.setForeground(new java.awt.Color(255, 255, 255));
         cantCortesCabJose.setText("0");
-        getContentPane().add(cantCortesCabJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 390, 20, -1));
+        getContentPane().add(cantCortesCabJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 390, 50, -1));
 
         precCorteCabJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteCabJose.setForeground(new java.awt.Color(255, 255, 255));
         precCorteCabJose.setText("$ 0");
-        getContentPane().add(precCorteCabJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 390, 30, -1));
+        getContentPane().add(precCorteCabJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 390, 100, -1));
 
         precCorteDamJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteDamJose.setForeground(new java.awt.Color(255, 255, 255));
         precCorteDamJose.setText("$ 0");
-        getContentPane().add(precCorteDamJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 410, 30, -1));
+        getContentPane().add(precCorteDamJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 410, 100, -1));
 
         cantCortesDamJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesDamJose.setForeground(new java.awt.Color(255, 255, 255));
         cantCortesDamJose.setText("0");
-        getContentPane().add(cantCortesDamJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 410, 10, -1));
+        getContentPane().add(cantCortesDamJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 410, 50, -1));
 
         cantTinturasJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantTinturasJose.setForeground(new java.awt.Color(255, 255, 255));
         cantTinturasJose.setText("0");
-        getContentPane().add(cantTinturasJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 430, 20, -1));
+        getContentPane().add(cantTinturasJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 430, 50, -1));
 
         precTinturaJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precTinturaJose.setForeground(new java.awt.Color(255, 255, 255));
         precTinturaJose.setText("$ 0");
-        getContentPane().add(precTinturaJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 430, 30, -1));
+        getContentPane().add(precTinturaJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 430, 100, -1));
 
         precPeinadoJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precPeinadoJose.setForeground(new java.awt.Color(255, 255, 255));
         precPeinadoJose.setText("$ 0");
-        getContentPane().add(precPeinadoJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 450, 30, -1));
+        getContentPane().add(precPeinadoJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 450, 100, -1));
 
         cantPeinadosJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantPeinadosJose.setForeground(new java.awt.Color(255, 255, 255));
         cantPeinadosJose.setText("0");
-        getContentPane().add(cantPeinadosJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 450, 10, -1));
+        getContentPane().add(cantPeinadosJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 450, 50, -1));
 
         totalServiciosJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalServiciosJose.setForeground(new java.awt.Color(255, 255, 255));
         totalServiciosJose.setText("0");
-        getContentPane().add(totalServiciosJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, 20, -1));
+        getContentPane().add(totalServiciosJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, 60, -1));
 
         totalRecaudadoJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalRecaudadoJose.setForeground(new java.awt.Color(255, 255, 255));
         totalRecaudadoJose.setText("$ 0");
-        getContentPane().add(totalRecaudadoJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 500, 30, -1));
+        getContentPane().add(totalRecaudadoJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 500, 70, -1));
 
         cantCortesCabRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesCabRoberto.setForeground(new java.awt.Color(255, 255, 255));
         cantCortesCabRoberto.setText("0");
-        getContentPane().add(cantCortesCabRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 180, 20, -1));
+        getContentPane().add(cantCortesCabRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 180, 40, -1));
 
         precCorteCabRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteCabRoberto.setForeground(new java.awt.Color(255, 255, 255));
         precCorteCabRoberto.setText("$ 0");
-        getContentPane().add(precCorteCabRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 180, 30, -1));
+        getContentPane().add(precCorteCabRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 180, 100, -1));
 
         precCorteDamRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteDamRoberto.setForeground(new java.awt.Color(255, 255, 255));
         precCorteDamRoberto.setText("$ 0");
-        getContentPane().add(precCorteDamRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 200, 30, -1));
+        getContentPane().add(precCorteDamRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 200, 90, -1));
 
         cantCortesDamRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesDamRoberto.setForeground(new java.awt.Color(255, 255, 255));
         cantCortesDamRoberto.setText("0");
-        getContentPane().add(cantCortesDamRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 200, 10, -1));
+        getContentPane().add(cantCortesDamRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 200, 40, -1));
 
         cantTinturasRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantTinturasRoberto.setForeground(new java.awt.Color(255, 255, 255));
         cantTinturasRoberto.setText("0");
-        getContentPane().add(cantTinturasRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 220, 20, -1));
+        getContentPane().add(cantTinturasRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 220, 40, -1));
 
         precTinturaRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precTinturaRoberto.setForeground(new java.awt.Color(255, 255, 255));
         precTinturaRoberto.setText("$ 0");
-        getContentPane().add(precTinturaRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 220, 30, -1));
+        getContentPane().add(precTinturaRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 220, 90, -1));
 
         precPeinadoRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precPeinadoRoberto.setForeground(new java.awt.Color(255, 255, 255));
         precPeinadoRoberto.setText("$ 0");
-        getContentPane().add(precPeinadoRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 240, 30, -1));
+        getContentPane().add(precPeinadoRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 240, 100, -1));
 
         cantPeinadosRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantPeinadosRoberto.setForeground(new java.awt.Color(255, 255, 255));
         cantPeinadosRoberto.setText("0");
-        getContentPane().add(cantPeinadosRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 240, 10, -1));
+        getContentPane().add(cantPeinadosRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 240, 40, -1));
 
         totalServiciosRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalServiciosRoberto.setForeground(new java.awt.Color(255, 255, 255));
         totalServiciosRoberto.setText("0");
-        getContentPane().add(totalServiciosRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 280, 20, -1));
+        getContentPane().add(totalServiciosRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 280, 60, -1));
 
         totalRecaudadoRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalRecaudadoRoberto.setForeground(new java.awt.Color(255, 255, 255));
         totalRecaudadoRoberto.setText("$ 0");
-        getContentPane().add(totalRecaudadoRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 300, 30, -1));
+        getContentPane().add(totalRecaudadoRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 300, 100, -1));
 
         precTinturaAnita.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precTinturaAnita.setForeground(new java.awt.Color(255, 255, 255));
@@ -597,14 +597,68 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
 
     private void registarRobertoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registarRobertoActionPerformed
         // TODO add your handling code here:
+          roberto=roberto.ingresarDatosPeluquero("Ana","Ramirez",56);
+        //caballero
+        cantCortesCabRoberto.setText(""+roberto.getCantCortesCaballero());
+        precCorteCabRoberto.setText("$ "+roberto.getTotalCortesCaballero());
+        //dama
+        cantCortesDamRoberto.setText(""+roberto.getCantCortesDama());
+        precCorteDamRoberto.setText("$ "+roberto.getTotalCortesDama());
+        //tinturas
+        cantTinturasRoberto.setText(""+roberto.getCantTinturasCabello());
+        precTinturaRoberto.setText("$ "+roberto.getTotalTinturasCabello());
+        //peinados
+        cantPeinadosRoberto.setText(""+roberto.getCantPeinados());
+        precPeinadoRoberto.setText("$ "+roberto.getTotalPeinados());
+        //servicios y recaudos
+        roberto.setTotalServicios(roberto.getTotalServicios()+roberto.calcularTotalServicios());
+        totalServiciosRoberto.setText(""+roberto.getTotalServicios());
+        roberto.setTotalRecaudado(roberto.getTotalRecaudado()+roberto.calcularTotalRecaudado());
+        totalRecaudadoRoberto.setText("$ "+roberto.getTotalRecaudado());
     }//GEN-LAST:event_registarRobertoActionPerformed
 
     private void registraLucreciaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registraLucreciaActionPerformed
         // TODO add your handling code here:
+          lucrecia=lucrecia.ingresarDatosPeluquero("Ana","Ramirez",56);
+        //caballero
+        cantCortesCabLucrecia.setText(""+lucrecia.getCantCortesCaballero());
+        precCorteCabLucrecia.setText("$ "+lucrecia.getTotalCortesCaballero());
+        //dama
+        cantCortesDamLucrecia.setText(""+lucrecia.getCantCortesDama());
+        precCorteDamLucrecia.setText("$ "+lucrecia.getTotalCortesDama());
+        //tinturas
+        cantTinturasLucrecia.setText(""+lucrecia.getCantTinturasCabello());
+        precTinturaLucrecia.setText("$ "+lucrecia.getTotalTinturasCabello());
+        //peinados
+        cantPeinadosLucrecia.setText(""+lucrecia.getCantPeinados());
+        precPeinadoLucrecia.setText("$ "+lucrecia.getTotalPeinados());
+        //servicios y recaudos
+        lucrecia.setTotalServicios(lucrecia.getTotalServicios()+lucrecia.calcularTotalServicios());
+        totalServiciosLucrecia.setText(""+lucrecia.getTotalServicios());
+        lucrecia.setTotalRecaudado(lucrecia.getTotalRecaudado()+lucrecia.calcularTotalRecaudado());
+        totalRecaudadoLucrecia.setText("$ "+lucrecia.getTotalRecaudado());
     }//GEN-LAST:event_registraLucreciaActionPerformed
 
     private void registrarJoseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registrarJoseActionPerformed
         // TODO add your handling code here:
+          jose=jose.ingresarDatosPeluquero("Ana","Ramirez",56);
+        //caballero
+        cantCortesCabJose.setText(""+jose.getCantCortesCaballero());
+        precCorteCabJose.setText("$ "+jose.getTotalCortesCaballero());
+        //dama
+        cantCortesDamJose.setText(""+jose.getCantCortesDama());
+        precCorteDamJose.setText("$ "+jose.getTotalCortesDama());
+        //tinturas
+        cantTinturasJose.setText(""+jose.getCantTinturasCabello());
+        precTinturaJose.setText("$ "+jose.getTotalTinturasCabello());
+        //peinados
+        cantPeinadosJose.setText(""+jose.getCantPeinados());
+        precPeinadoJose.setText("$ "+jose.getTotalPeinados());
+        //servicios y recaudos
+        jose.setTotalServicios(jose.getTotalServicios()+jose.calcularTotalServicios());
+        totalServiciosJose.setText(""+jose.getTotalServicios());
+        jose.setTotalRecaudado(jose.getTotalRecaudado()+jose.calcularTotalRecaudado());
+        totalRecaudadoJose.setText("$ "+jose.getTotalRecaudado());
     }//GEN-LAST:event_registrarJoseActionPerformed
 
     private void iniciarDiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_iniciarDiaActionPerformed
