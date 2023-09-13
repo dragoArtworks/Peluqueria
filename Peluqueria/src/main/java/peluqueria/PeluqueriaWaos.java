@@ -146,7 +146,7 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
                 regristarAnitaActionPerformed(evt);
             }
         });
-        getContentPane().add(regristarAnita, new org.netbeans.lib.awtextra.AbsoluteConstraints(179, 570, 112, -1));
+        getContentPane().add(regristarAnita, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 570, 130, -1));
 
         registarRoberto.setBackground(new java.awt.Color(92, 131, 116));
         registarRoberto.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
@@ -157,7 +157,7 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
                 registarRobertoActionPerformed(evt);
             }
         });
-        getContentPane().add(registarRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 570, -1, -1));
+        getContentPane().add(registarRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 570, -1, -1));
 
         registraLucrecia.setBackground(new java.awt.Color(92, 131, 116));
         registraLucrecia.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
@@ -168,7 +168,7 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
                 registraLucreciaActionPerformed(evt);
             }
         });
-        getContentPane().add(registraLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 570, -1, -1));
+        getContentPane().add(registraLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 570, -1, -1));
 
         registrarJose.setBackground(new java.awt.Color(92, 131, 116));
         registrarJose.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
@@ -179,13 +179,18 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
                 registrarJoseActionPerformed(evt);
             }
         });
-        getContentPane().add(registrarJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 570, -1, -1));
+        getContentPane().add(registrarJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 570, -1, -1));
 
         verTotales.setBackground(new java.awt.Color(92, 131, 144));
         verTotales.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         verTotales.setForeground(new java.awt.Color(255, 255, 255));
         verTotales.setText("Ver Totales");
-        getContentPane().add(verTotales, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 570, -1, -1));
+        verTotales.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                verTotalesActionPerformed(evt);
+            }
+        });
+        getContentPane().add(verTotales, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 570, -1, -1));
 
         cantCortesCabLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesCabLucrecia.setForeground(new java.awt.Color(255, 255, 255));
@@ -230,12 +235,12 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         totalServiciosLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalServiciosLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         totalServiciosLucrecia.setText("0");
-        getContentPane().add(totalServiciosLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 480, 60, -1));
+        getContentPane().add(totalServiciosLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 480, 100, -1));
 
         totalRecaudadoLucrecia.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalRecaudadoLucrecia.setForeground(new java.awt.Color(255, 255, 255));
         totalRecaudadoLucrecia.setText("$ 0");
-        getContentPane().add(totalRecaudadoLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 500, 70, -1));
+        getContentPane().add(totalRecaudadoLucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 500, 130, -1));
 
         cantCortesCabJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesCabJose.setForeground(new java.awt.Color(255, 255, 255));
@@ -245,12 +250,12 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         precCorteCabJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteCabJose.setForeground(new java.awt.Color(255, 255, 255));
         precCorteCabJose.setText("$ 0");
-        getContentPane().add(precCorteCabJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 390, 100, -1));
+        getContentPane().add(precCorteCabJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 390, 130, -1));
 
         precCorteDamJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteDamJose.setForeground(new java.awt.Color(255, 255, 255));
         precCorteDamJose.setText("$ 0");
-        getContentPane().add(precCorteDamJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 410, 100, -1));
+        getContentPane().add(precCorteDamJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 410, 130, -1));
 
         cantCortesDamJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesDamJose.setForeground(new java.awt.Color(255, 255, 255));
@@ -265,12 +270,12 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         precTinturaJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precTinturaJose.setForeground(new java.awt.Color(255, 255, 255));
         precTinturaJose.setText("$ 0");
-        getContentPane().add(precTinturaJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 430, 100, -1));
+        getContentPane().add(precTinturaJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 430, 130, -1));
 
         precPeinadoJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precPeinadoJose.setForeground(new java.awt.Color(255, 255, 255));
         precPeinadoJose.setText("$ 0");
-        getContentPane().add(precPeinadoJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 450, 100, -1));
+        getContentPane().add(precPeinadoJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 450, 120, -1));
 
         cantPeinadosJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantPeinadosJose.setForeground(new java.awt.Color(255, 255, 255));
@@ -280,12 +285,12 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         totalServiciosJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalServiciosJose.setForeground(new java.awt.Color(255, 255, 255));
         totalServiciosJose.setText("0");
-        getContentPane().add(totalServiciosJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, 60, -1));
+        getContentPane().add(totalServiciosJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, 160, -1));
 
         totalRecaudadoJose.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalRecaudadoJose.setForeground(new java.awt.Color(255, 255, 255));
         totalRecaudadoJose.setText("$ 0");
-        getContentPane().add(totalRecaudadoJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 500, 70, -1));
+        getContentPane().add(totalRecaudadoJose, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 500, 170, -1));
 
         cantCortesCabRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantCortesCabRoberto.setForeground(new java.awt.Color(255, 255, 255));
@@ -330,12 +335,12 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         totalServiciosRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalServiciosRoberto.setForeground(new java.awt.Color(255, 255, 255));
         totalServiciosRoberto.setText("0");
-        getContentPane().add(totalServiciosRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 280, 60, -1));
+        getContentPane().add(totalServiciosRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 280, 130, -1));
 
         totalRecaudadoRoberto.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalRecaudadoRoberto.setForeground(new java.awt.Color(255, 255, 255));
         totalRecaudadoRoberto.setText("$ 0");
-        getContentPane().add(totalRecaudadoRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 300, 100, -1));
+        getContentPane().add(totalRecaudadoRoberto, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 300, 130, -1));
 
         precTinturaAnita.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precTinturaAnita.setForeground(new java.awt.Color(255, 255, 255));
@@ -350,7 +355,7 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         precCorteCabAnita.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteCabAnita.setForeground(new java.awt.Color(255, 255, 255));
         precCorteCabAnita.setText("$ 0");
-        getContentPane().add(precCorteCabAnita, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 190, 110, -1));
+        getContentPane().add(precCorteCabAnita, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 190, 130, -1));
 
         totalRecaudadoAnita.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         totalRecaudadoAnita.setForeground(new java.awt.Color(255, 255, 255));
@@ -365,7 +370,7 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         precCorteDamAnita.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         precCorteDamAnita.setForeground(new java.awt.Color(255, 255, 255));
         precCorteDamAnita.setText("$ 0");
-        getContentPane().add(precCorteDamAnita, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 210, 120, -1));
+        getContentPane().add(precCorteDamAnita, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 210, 130, -1));
 
         cantTinturasAnita.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         cantTinturasAnita.setForeground(new java.awt.Color(255, 255, 255));
@@ -542,17 +547,17 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         getContentPane().add(Lucrecia, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 360, 190, 180));
 
         logo.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\imagenes\\logo.png")); // NOI18N
-        getContentPane().add(logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 0, -1, -1));
+        getContentPane().add(logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 0, -1, -1));
 
         slogan.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
         slogan.setForeground(new java.awt.Color(24, 61, 61));
         slogan.setText("\"Mas que una barberia, una experiencia\"");
-        getContentPane().add(slogan, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 70, -1, -1));
+        getContentPane().add(slogan, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 70, -1, -1));
 
         titulo.setFont(new java.awt.Font("Monospaced", 1, 60)); // NOI18N
         titulo.setForeground(new java.awt.Color(24, 61, 61));
         titulo.setText("Barberia Waos");
-        getContentPane().add(titulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 0, 490, -1));
+        getContentPane().add(titulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 0, 490, -1));
 
         div3.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\Desarrollo\\programacion 301\\actividad peluqueria\\Peluqueria\\src\\main\\java\\imagenes\\contenedor.jpg")); // NOI18N
         getContentPane().add(div3, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 350, 480, 200));
@@ -706,11 +711,18 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         precPeinadoLucrecia.setText("$ "+0);
         precTinturaLucrecia.setText("$ "+0);
       //ana.iniciarDia();
-        ana.iniciarDia();
-        roberto.iniciarDia();
-        jose.iniciarDia();
-        lucrecia.iniciarDia();
+        ana=ana.iniciarDia();
+        roberto=roberto.iniciarDia();
+        jose= jose.iniciarDia();
+        lucrecia=lucrecia.iniciarDia();
     }//GEN-LAST:event_iniciarDiaActionPerformed
+
+    private void verTotalesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_verTotalesActionPerformed
+        // TODO add your handling code here:
+        int consolidado=ana.getTotalServicios()+roberto.getTotalServicios()+jose.getTotalServicios()+lucrecia.getTotalServicios();
+        int recaudado=ana.getTotalRecaudado()+roberto.getTotalRecaudado()+jose.getTotalRecaudado()+lucrecia.getTotalRecaudado();
+        JOptionPane.showMessageDialog(null, "el total de servicios realizados en la peluqueria es de : "+consolidado+"\nel total de dienro recaudado es de: $"+recaudado);
+    }//GEN-LAST:event_verTotalesActionPerformed
 
     /**
      * @param args the command line arguments

@@ -127,6 +127,7 @@ public class Peluquero extends Persona {
         nuevoPeluquero.setCantCortesDama(0);
         nuevoPeluquero.setCantPeinados(0);
         nuevoPeluquero.setCantTinturasCabello(0);
+        
         return nuevoPeluquero;
     }
 
@@ -162,8 +163,17 @@ public class Peluquero extends Persona {
         int valor = 0;
         try {
             valor = Integer.parseInt(JOptionPane.showInputDialog(mensaje));
+            if(valor<1){
+                JOptionPane.showMessageDialog(null, "dato no valido");
+                return 0;
+            }else{
+                
+            
             return valor;
+            }
+            
         } catch (Exception errorIngreso) {
+            JOptionPane.showMessageDialog(null, "Dato no valido");
             errorIngreso.printStackTrace();
             return 0;
         }
@@ -199,7 +209,9 @@ public class Peluquero extends Persona {
                 break;
             case 4:
                 peinado = nuePeluquero.leerDatoTipoEntero("cuantas tinturas desea realizar: ");
-               
+                break;
+            default:
+                JOptionPane.showMessageDialog(null,"dato no valido rey" );
                 break;
         }
         nuePeluquero.setCantCortesCaballero(cantCortesCaballero+corteCab);
