@@ -721,7 +721,8 @@ public class PeluqueriaWaos extends javax.swing.JFrame {
         // TODO add your handling code here:
         int consolidado=ana.getTotalServicios()+roberto.getTotalServicios()+jose.getTotalServicios()+lucrecia.getTotalServicios();
         int recaudado=ana.getTotalRecaudado()+roberto.getTotalRecaudado()+jose.getTotalRecaudado()+lucrecia.getTotalRecaudado();
-        JOptionPane.showMessageDialog(null, "el total de servicios realizados en la peluqueria es de : "+consolidado+"\nel total de dienro recaudado es de: $"+recaudado);
+        JOptionPane.showMessageDialog(null, "el total de servicios realizados en la peluqueria es de : "+consolidado+
+                "\nel total de dinero recaudado es de: $"+recaudado);
     }//GEN-LAST:event_verTotalesActionPerformed
 
     /**

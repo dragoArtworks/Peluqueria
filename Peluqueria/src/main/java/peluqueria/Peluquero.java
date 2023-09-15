@@ -200,15 +200,35 @@ public class Peluquero extends Persona {
         switch (cortes) {
             case 1:
                 corteCab = nuePeluquero.leerDatoTipoEntero("cuantos cortes de caballero desea realizar: ");
+                if(corteCab>10){
+                    corteCab=0;
+                    JOptionPane.showMessageDialog(null, "no se pueden hacer mas de 10 cortes al dia \n"
+                            +"      eso es sobreexplotacion😡");
+                }
                 break;
             case 2:
                 corteDam = nuePeluquero.leerDatoTipoEntero("cuantos cortes de dama desea realizar: ");
+                if(corteDam>10){
+                    corteDam=0;
+                    JOptionPane.showMessageDialog(null, "no se pueden hacer mas de 10 cortes al dia \n"
+                            +"      eso es sobreexplotacion😡");
+                }
                 break;
             case 3:
-                 tintura = nuePeluquero.leerDatoTipoEntero("cuantos peinados desea realizar");
+                 tintura = nuePeluquero.leerDatoTipoEntero("cuantas tinturas desea realizar");
+                 if(tintura>10){
+                    tintura=0;
+                    JOptionPane.showMessageDialog(null, "no se pueden hacer mas de 10 tinturas al dia \n"
+                            +"      eso es sobreexplotacion😡");
+                }
                 break;
             case 4:
-                peinado = nuePeluquero.leerDatoTipoEntero("cuantas tinturas desea realizar: ");
+                peinado = nuePeluquero.leerDatoTipoEntero("cuantas peinados desea realizar: ");
+                if(peinado>10){
+                    peinado=0;
+                    JOptionPane.showMessageDialog(null, "no se pueden hacer mas de 10 peinados al dia \n"
+                            +"      eso es sobreexplotacion😡");
+                }
                 break;
             default:
                 JOptionPane.showMessageDialog(null,"dato no valido rey" );
@@ -224,10 +244,6 @@ public class Peluquero extends Persona {
         nuePeluquero.setTotalPeinados(totalPeinados+calcularPeinados(peinado));
         nuePeluquero.setTotalTinturasCabello(totalTinturasCabello+calcularTinturaCabello(tintura));
         
-      //  nuePeluquero.setTotalServicios(totalServicios+calcularTotalServicios());
-      //  nuePeluquero.setTotalRecaudado(totalRecaudado+calcularTotalRecaudado());
-        
         return nuePeluquero;
-
     }
 }
