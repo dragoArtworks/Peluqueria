@@ -1,6 +1,7 @@
 package peluqueria;
 
 import javax.swing.JOptionPane;
+import jdk.nashorn.api.tree.BreakTree;
 
 /**
  *
@@ -189,8 +190,6 @@ public class Peluquero extends Persona {
         int corteDam = 0;
         int tintura = 0;
         int peinado = 0;
-        int totalServicios = 0;
-        int totalRecaudado = 0;
         nuePeluquero.setNombre(nombre);
         nuePeluquero.setApellido(apellido);
         nuePeluquero.setEdad(edad);
